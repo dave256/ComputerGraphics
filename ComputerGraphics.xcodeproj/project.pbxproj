@@ -20,6 +20,7 @@
 		032CA19A237884E400DE6CA7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 032CA196237884E400DE6CA7 /* main.cpp */; };
 		032CA19F237892F000DE6CA7 /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 032CA19D237892F000DE6CA7 /* Renderer.cpp */; };
 		032CA1AA2378995800DE6CA7 /* PointDrawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 032CA1A82378995800DE6CA7 /* PointDrawable.cpp */; };
+		032F68AE276FAC3E00DD1897 /* DemoRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 032F68AD276FAC3E00DD1897 /* DemoRenderer.cpp */; };
 		03523A9923799AA200EE720D /* LineDrawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03523A9723799AA200EE720D /* LineDrawable.cpp */; };
 		03F457542378AF6500EC29A5 /* pointVShader.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 032CA1AF2378ADCE00DE6CA7 /* pointVShader.txt */; };
 		03F457552378AF6500EC29A5 /* pointFShader.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 032CA1B02378ADDB00DE6CA7 /* pointFShader.txt */; };
@@ -72,6 +73,8 @@
 		032CA1AC23789AAE00DE6CA7 /* Color.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Color.hpp; sourceTree = "<group>"; };
 		032CA1AF2378ADCE00DE6CA7 /* pointVShader.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = pointVShader.txt; sourceTree = "<group>"; };
 		032CA1B02378ADDB00DE6CA7 /* pointFShader.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = pointFShader.txt; sourceTree = "<group>"; };
+		032F68AC276FAC3E00DD1897 /* DemoRenderer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DemoRenderer.hpp; sourceTree = "<group>"; };
+		032F68AD276FAC3E00DD1897 /* DemoRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DemoRenderer.cpp; sourceTree = "<group>"; };
 		03523A9223798DF100EE720D /* PolyLineDrawable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PolyLineDrawable.hpp; sourceTree = "<group>"; };
 		03523A952379954000EE720D /* LineStripDrawable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LineStripDrawable.hpp; sourceTree = "<group>"; };
 		03523A9723799AA200EE720D /* LineDrawable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LineDrawable.cpp; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 		032CA1712378619A00DE6CA7 /* ComputerGraphics */ = {
 			isa = PBXGroup;
 			children = (
+				032F68AD276FAC3E00DD1897 /* DemoRenderer.cpp */,
+				032F68AC276FAC3E00DD1897 /* DemoRenderer.hpp */,
 				032CA196237884E400DE6CA7 /* main.cpp */,
 			);
 			path = ComputerGraphics;
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				032CA1942378841100DE6CA7 /* GLFWBase.cpp in Sources */,
+				032F68AE276FAC3E00DD1897 /* DemoRenderer.cpp in Sources */,
 				032CA1AA2378995800DE6CA7 /* PointDrawable.cpp in Sources */,
 				032CA17F2378637000DE6CA7 /* ShaderProgram.cpp in Sources */,
 				032CA19A237884E400DE6CA7 /* main.cpp in Sources */,

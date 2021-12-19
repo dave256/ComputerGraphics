@@ -132,6 +132,7 @@
     <ClCompile Include="..\RenderBase\LineDrawable.cpp" />
     <ClCompile Include="..\RenderBase\PointDrawable.cpp" />
     <ClCompile Include="..\RenderBase\Renderer.cpp" />
+    <ClCompile Include="DemoRenderer.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +153,7 @@
     <ClInclude Include="..\RenderBase\graphics.hpp" />
     <ClInclude Include="..\RenderBase\Renderer.hpp" />
     <ClInclude Include="..\RenderBase\Color.hpp" />
+    <ClInclude Include="DemoRenderer.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\RenderBase\Shaders\coloredPointFShader.txt" />
